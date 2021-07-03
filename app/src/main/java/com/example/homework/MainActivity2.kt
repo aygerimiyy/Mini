@@ -33,6 +33,9 @@ class MainActivity2 : AppCompatActivity() {
             ekisan.text!!.clear()
             amel.text!!.clear()
             result.text = ""
+            birsan.error=""
+            ekisan.error = ""
+            amel.error = ""
         }
 
     }

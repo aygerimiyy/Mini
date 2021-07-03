@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
                          val rasm1 = edit1.text.toString()
                          if (rasm1.isNotEmpty()) {
                              val intent = Intent(Intent.ACTION_VIEW)
-                             intent.setData(Uri.parse("https://google.com"));
+                             intent.setData(Uri.parse("https://google.com"))
                              startActivity(intent)
                          } else {
                              Toast.makeText(this, "Polyani toltirin", Toast.LENGTH_LONG).show()

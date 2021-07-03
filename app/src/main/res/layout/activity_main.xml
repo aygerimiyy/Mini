@@ -32,17 +32,20 @@
         app:civ_border_color="@color/purple_200"
         app:civ_border_width="2dp"
         />
+
     <EditText
         android:id="@+id/edit1"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:hint="text"
+        android:layout_marginTop="40dp"
         android:autofillHints="@string/bottom_sheet_behavior"
-        android:layout_marginTop="20dp"
+        android:hint="text"
         android:inputType="text"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/zvanok"/>
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/zvanok" />
+
     <de.hdodenhof.circleimageview.CircleImageView
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:id="@+id/google"
